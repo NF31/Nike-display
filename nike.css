@@ -1,0 +1,219 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  width: 181px;
+  height: 1117px;
+  background-color: #000000;
+  position: absolute;
+}
+header nav {
+  margin: auto;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 40px;
+  height: 347.83px;
+}
+
+#maison {
+  position: absolute;
+  width: 33.91px;
+  height: 33.33px;
+  left: 70.78px;
+  top: 265.74px;
+  bottom: 819.59px;
+}
+
+#recherche {
+  position: absolute;
+  width: 31.67px;
+  height: 31.67px;
+  left: 70.78px;
+  top: 162.47px;
+  bottom: 921.2px;
+}
+
+#msg {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  left: 71.12px;
+  top: 367.69px;
+  bottom: 715.98px;
+}
+#shop {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  left: 67.68px;
+  top: 466.97px;
+  bottom: 610.03px;
+}
+header aside {
+  width: 37.57px;
+  height: 106.44px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+#insta {
+  position: absolute;
+  width: 37.57px;
+  height: 37.57px;
+  left: 69px;
+  top: 903px;
+  bottom: 176.43px;
+}
+
+#twitter {
+  position: absolute;
+  width: 31.31px;
+  height: 26.62px;
+  left: 72.13px;
+  top: 978.12px;
+}
+
+main {
+  width: 100%;
+  margin-left: auto;
+  height: 125px;
+  align-items: end;
+  display: flex;
+}
+
+#nike {
+  margin-left: 186px;
+  padding: 40px;
+  width: 86px;
+  height: 30.5px;
+}
+
+#sun {
+  width: 41px;
+  margin-left: auto;
+  padding: 40px;
+  opacity: 0;
+  transform: translateY(-50px);
+  animation: apparition 0.5s 0.5s ease-out forwards;
+}
+nav {
+  width: 457.37px;
+  height: 59px;
+  margin-left: 186px;
+  top: 164px;
+  left: 227px;
+  border-radius: 18.28px;
+  padding: 8px;
+}
+
+section {
+  display: flex;
+}
+
+#at {
+  margin-left: 227px;
+}
+
+#shoes {
+  width: 800px;
+  margin: 70px auto 20px;
+}
+
+#roles {
+  display: flex;
+}
+
+#at2 {
+  position: relative;
+  font-family: Circular Std;
+}
+
+#at2 h2{
+  font-family: "Circular Std";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 62px;
+  color : darkred;
+}
+#at2 span {
+  font-size: 27px;
+  display: block;
+  margin: 60px auto;
+  font-weight: 600;
+}
+#at2 span img{
+  margin: auto;
+}
+#at2 #star{
+  margin: auto;
+}
+
+
+#at2 div{
+  display: flex;
+  margin: auto;
+  width: 90%;
+  margin: 60px auto;
+}
+
+#at2 div button {
+  display: flex;
+  align-items: center;
+  margin: auto;
+  padding: 14px 30px;
+  font-size: 26px;
+  border: 1px solid black;
+  border-radius: 5px;
+  font-weight: 600;
+}
+
+#at2 div #coeur {
+  background-color: white;
+  padding: 15px 30px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#at2 div button img {
+  margin: 0 10px;
+}
+#at2 div #add {
+  background-color: black;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+#at2 #infoProduit {
+  display: block;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#at2 #infoProduit h4 {
+  font-size: 25px;
+  margin: 50px 0 12px;
+  color : darkred;
+  
+}
+
+
+#at2 #infoProduit p {
+    line-height: 28px;
+    font-size: 20px;
+    margin-bottom: 50px;
+}
+
+#at2 #infoProduit a {
+  font-size: 25px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: black;
+  margin: 25px 0;
+  display: flex;
+  align-items: center;
+  font-weight: bold;
+}
+
+#at2 #infoProduit a img {
+  margin: 0 15px;
+}
