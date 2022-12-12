@@ -9,6 +9,7 @@ header {
   background-color: #000000;
   position: absolute;
 }
+
 header nav {
   margin: auto;
   flex-direction: column;
@@ -43,6 +44,7 @@ header nav {
   top: 367.69px;
   bottom: 715.98px;
 }
+
 #shop {
   position: absolute;
   width: 40px;
@@ -51,6 +53,7 @@ header nav {
   top: 466.97px;
   bottom: 610.03px;
 }
+
 header aside {
   width: 37.57px;
   height: 106.44px;
@@ -99,6 +102,7 @@ main {
   transform: translateY(-50px);
   animation: apparition 0.5s 0.5s ease-out forwards;
 }
+
 nav {
   width: 457.37px;
   height: 59px;
@@ -131,28 +135,31 @@ section {
   font-family: Circular Std;
 }
 
-#at2 h2{
+#at2 h2 {
   font-family: "Circular Std";
   font-style: normal;
   font-weight: 700;
   font-size: 62px;
-  color : darkred;
+  color: darkred;
 }
+
 #at2 span {
   font-size: 27px;
   display: block;
   margin: 60px auto;
   font-weight: 600;
 }
-#at2 span img{
+
+#at2 span img {
   margin: auto;
 }
-#at2 #star{
+
+#at2 #star {
   margin: auto;
 }
 
 
-#at2 div{
+#at2 div {
   display: flex;
   margin: auto;
   width: 90%;
@@ -179,10 +186,11 @@ section {
 #at2 div button img {
   margin: 0 10px;
 }
+
 #at2 div #add {
   background-color: black;
-    color: white;
-    font-family: Arial, Helvetica, sans-serif
+  color: white;
+  font-family: Arial, Helvetica, sans-serif
 }
 
 #at2 #infoProduit {
@@ -193,15 +201,15 @@ section {
 #at2 #infoProduit h4 {
   font-size: 25px;
   margin: 50px 0 12px;
-  color : darkred;
-  
+  color: darkred;
+
 }
 
 
 #at2 #infoProduit p {
-    line-height: 28px;
-    font-size: 20px;
-    margin-bottom: 50px;
+  line-height: 28px;
+  font-size: 20px;
+  margin-bottom: 50px;
 }
 
 #at2 #infoProduit a {
